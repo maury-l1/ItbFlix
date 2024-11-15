@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link rel="stylesheet" href="itb.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ItbFlix</title>  
+    <title>ItbFlix</title>
 </head>
 <body>
-    <header class="ContainerHeader">
-                <h1>ItbFlix</h1>
-            <nav class="Opciones">
-                    <a class="Item" href="peliculas.html">Peliculas</a>
-                    <a class="Item" href="actores.html" target="_blank">Actores</a>
-                    <a class="Item" href="series.html" target="_blank">Series</a>
-                    <a class="Item" href="" target="_blank">Festivales</a>
-                    <a class="Item" href="" target="_blank">Lo mas visto</a>
-            </nav>
+    <header>
+        <h1>ItbFlix</h1>
+    <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:5500/ITBFLIX/peliculas.html" target="_blank">Peliculas</a></li>
+            <li><a href="http://127.0.0.1:5500/ITBFLIX/actores.html" target="_blank">Actores</a></li>
+            <li><a href="http://127.0.0.1:5500/ITBFLIX/series.html" target="_blank">Series</a></li>
+            <li><a href="" target="_blank">Festivales</a></li>
+            <li><a href="" target="_blank">Lo mas visto</a></li>
+        </ul>
+    </nav>
+    <aside>
+        <nav>
+            <p>Buscar por nombre:</p>
+            <form>
+                <label for = "search"></label>
+                <input type = "text" id = "search" name = "search">
+            </form>
+        </nav>        
+    </aside>
+  
     </header>
     <main>
-        <section class="Peliculas">
+        <section>
             <h2>Peliculas</h2>
             <article>
                 <h3 id="Inte">Interestellar</h3>
@@ -173,8 +184,7 @@
             NIF: S0800608B
             
             info@itb.cat
-            telegram @iTecBcn
-        </address>
+            telegram @iTecBcn</address>
     </footer>
     
 </body>

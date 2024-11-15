@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ContainerHeader {
+    position: fixed;
+    background-color: rgb(156, 0, 0);
+    height: 230px;
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+}
+
+.Opciones{
+    
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    gap: 10px;   
+    width: 50%;
+    margin: 8%; 
+
+}
+.Item{
+
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.Peliculas{
+
+    background-color: rgb(59, 49, 49);
+    margin: 10px;
+    border: solid black;
+
+}
+
+.Pel {
+
+    font-size: large;
+    font-weight: 100;
+    display: flex;
+    margin: 10px;
+
+
+}
+.Act {
+
+    font-size: large;
+    float: right;
+    margin: 10px;
+
+
+
+}
