@@ -11,6 +11,9 @@
     width: 100%;
     text-align: center;
     justify-items: center;
+    border: solid black;
+    padding-top: 0%;
+    top: 0;
 }
 
 .Opciones{
@@ -30,29 +33,52 @@
     border: 1px solid black;
 }
 
+
 .Peliculas{
+    display: flex;
+    background-color: rgb(59, 49, 49);
+    border: solid black;
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+main{
+
+    margin-top: 230px;
+
+}
+
+.Interestellar, .Inception, .Tenet,
+.Shutter, .War, .Insidious{
+   
+   
+    border: solid salmon;
+        
+    width: 30%;
+
+
+}
+
+
+.Actores {
 
     background-color: rgb(59, 49, 49);
-    margin: 10px;
-    border: solid black;
-
-}
-
-.Pel {
-
-    font-size: large;
-    font-weight: 100;
     display: flex;
-    margin: 10px;
-
-
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
-.Act {
+.Series{
 
-    font-size: large;
-    float: right;
-    margin: 10px;
+    display: flex;
+    background-color: rgb(59, 49, 49);
+    gap: 40px;
+}
+.Breaking{
 
+    justify-items: center;
+    width: 30%;
+    
 
 
 }
