@@ -1,0 +1,156 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* Evita el desplazamiento horizontal */
+    }
+    a{
+        text-decoration: none;
+    }
+
+    video {
+        width: 100%;
+        height: 100vh; 
+        object-fit: cover; 
+        position: absolute; 
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+    .ContainerHeader {
+        position: fixed;
+        height: 230px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 0;
+        top: 0;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+        z-index: 1;
+    }
+
+    .Opciones {
+        display: flex;
+        justify-content: space-around;
+        
+        gap: 10px;   
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+    }
+    .FLIX{
+        padding-top: 1%;
+    }
+
+    .LogoInter {
+        position: absolute;
+        top: 45%;
+        left: 1%;
+        width: 32%;
+        height: auto;
+        z-index: 1;
+    }
+    .Relacionados{
+        display: flex;
+        width: 100%;
+        height: 50px;
+        margin-top: 0%;
+       
+        border: solid rebeccapurple;
+    }
+    .Sinopsis{
+        width: 100%;
+        height: 150px;
+        margin-top: 5.5%;
+        margin-bottom: 0%;
+        border: solid gold;
+        z-index: 1;
+        margin-left: 0%;
+    }
+    .Item{
+
+        font-weight: 350;
+
+    }
+    main {
+        margin-top: 230px; /* Dejar espacio para el header fijo */
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        z-index: -2;
+    }
+
+    .media {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .Principal {
+        display: flex;
+        flex-direction: column;
+        align-items:baseline;
+        border: solid red;
+        height: 700px;
+    }
+
+    .infox {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 900px;
+        margin-top: 25%;
+        border: solid gold;
+        z-index: 1;
+        margin-left: 3%;
+        gap: 3px;
+        align-items: flex-start;
+
+    }
+    .ContenedorP{
+
+        border: solid skyblue;
+        height: 500px;
+
+    }
+    p{
+        font-family: "Segoe UI";
+        font-weight: 500;
+        font-size: 19px;
+        color: #C7C7C7;
+    }
+    .t2{
+        font-family: "Segoe UI";
+        font-size: 15px;
+        font-weight: 480;
+        
+        color: #C7C7C7;
+    }
+    .t3 {
+        font-family: "Segoe UI";
+        font-size: 13px;
+        font-weight: 390;
+        color: #C7C7C7;
+    }
+    .t4{
+        color: #ffffff;
+    }
+    .fade{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 72%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 0.9) 30%, rgba(0, 0, 0, 0.7) 45%, rgba(0, 0, 0, 0));
+        z-index: 1;
+        
+    }

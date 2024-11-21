@@ -6,75 +6,103 @@
 
 .ContainerHeader {
     position: fixed;
-    background-color: rgb(156, 0, 0);
     height: 230px;
     width: 100%;
     text-align: center;
-    justify-items: center;
+    justify-content: center;
     border: solid black;
     padding-top: 0%;
     top: 0;
 }
+.itb {
 
+    border: solid yellow;
+
+}
+.FLIX{
+    padding-top: 1%;
+}
+.Item{
+
+    font-weight: 350;
+
+}
+p{
+    font-family: "Segoe UI";
+    font-weight: 500;
+    font-size: 19px;
+    color: #C7C7C7;
+}
 .Opciones{
     
     display: flex;
     justify-content: space-around;
-    border: 1px solid black;
+  
     gap: 10px;   
     width: 50%;
-    margin: 8%; 
+    margin-left: 26%; 
+    margin-top: 8%;
 
 }
-.Item{
 
-    font-weight: bold;
-    text-align: center;
-    border: 1px solid black;
-}
 
 
 .Peliculas{
     display: flex;
     background-color: rgb(59, 49, 49);
-    border: solid black;
+    border: solid blue;
     width: 100%;
     gap: 20px;
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;    
 }
+
 main{
-
-    margin-top: 230px;
+    background-color: rgb(59, 49, 49);
+    
 
 }
 
-.Interestellar, .Inception, .Tenet,
+.Interestellar, .Inception, .Tenet{
+    padding-top: 5%;
+
+    
+    width: 30%;
+   
+}
 .Shutter, .War, .Insidious{
-   
-   
-    border: solid salmon;
         
     width: 30%;
-
-
 }
 
 
 .Actores {
 
-    background-color: rgb(59, 49, 49);
+    border: solid green;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: center;
+    gap: 0px;
     
+}
+.TituloAct, .TituloPel, .TituloSer{
+
+    width: 100%;
+
 }
 .Series{
 
     display: flex;
     background-color: rgb(59, 49, 49);
-    gap: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
 }
-.Breaking{
+.Breaking, .Dark, .GOT, .PK, .What, .Rick{
 
     justify-items: center;
     width: 30%;
