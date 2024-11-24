@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.foot {
+    background-color: #141414;
+}
+
+.ContainerHeader {
+    position: fixed;
+    height: 230px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0;
+    top: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+    z-index: 1;
+}
+
+.textofinal {
+    color: white;
+}
+
+.Opciones {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    width: 50%;
+    margin: 2% auto 0;
+}
+
+.FLIX {
+    padding-top: 1%;
+}
+
+.Item {
+
+    font-weight: 350;
+
+}
+
+h3 {
+
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-size: xx-large;
+    font-weight: 600;
+
+}
+
+p {
+    font-family: "Segoe UI";
+    font-weight: 500;
+    font-size: 19px;
+    color: #C7C7C7;
+}
+
+
+
+.Peliculas {
+    display: flex;
+
+
+    width: 100%;
+    gap: 20px;
+
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+main {
+    background-color: #141414;
+
+}
+
+.Interestellar,
+.Inception,
+.Tenet {
+    padding-top: 5%;
+
+    margin-top: 6%;
+    width: 30%;
+
+}
+
+.Shutter,
+.War,
+.Insidious {
+
+    width: 30%;
+
+}
+
+
+.Actores {
+
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 80px;
+
+}
+
+.TituloAct,
+.TituloPel,
+.TituloSer {
+
+    width: 100%;
+
+}
+
+.TituloPel {
+
+    color: white;
+    padding-top: 230px;
+
+}
+
+.Series {
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.Breaking,
+.Dark,
+.GOT,
+.PK,
+.What,
+.Rick {
+
+    justify-items: center;
+    width: 30%;
+
+
+
+}

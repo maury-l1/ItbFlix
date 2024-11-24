@@ -1,0 +1,161 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* Evita el desplazamiento horizontal */
+    background-color: black;
+    /* Fondo negro para todo el cuerpo */
+}
+
+.ContainerHeader {
+    position: fixed;
+    height: 230px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 0;
+    top: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+    z-index: 1;
+}
+
+.FLIX {
+    padding-top: 1%;
+}
+
+.Opciones {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    width: 50%;
+    margin: 2% auto 0;
+}
+
+.Opciones .Item {
+    color: white;
+    text-decoration: none;
+}
+
+.Titulo {
+    font-family: "Varela", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+
+    height: fit-content;
+    width: 100%;
+}
+
+/* Main Section */
+main {
+    margin-top: 230px;
+    /* Dejar espacio para el header fijo */
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    /* Fondo del main en color #141414 */
+}
+
+/* Contenedor1 */
+.Contenedor1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+/* Article Styles */
+
+
+/* Nueva clase para los títulos */
+.Titulos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: x-large;
+    width: 100%;
+    margin-bottom: 0%;
+    padding: 0;
+    height: fit-content;
+
+}
+
+p {
+
+    font-family: "Segoe UI";
+    font-weight: 500;
+    font-size: 25px;
+
+}
+
+/* Nueva clase para el texto */
+.texto {
+    color: #ddd;
+
+    width: 50%;
+    font-size: 30px;
+    height: fit-content;
+    margin-left: 30%;
+    margin-top: 0%;
+}
+
+.textoIzq {
+
+    color: #ddd;
+
+    width: 50%;
+    font-size: 30px;
+    height: fit-content;
+    margin-left: 15%;
+    margin-right: 0%;
+}
+
+.textoDer {
+    color: #ddd;
+
+    width: 50%;
+    font-size: 30px;
+    height: fit-content;
+    margin-left: 0%;
+    margin-right: 15%;
+
+
+}
+
+.Izquierda {
+
+    display: flex;
+
+    width: 80%;
+    height: fit-content;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.Derecha {
+    display: flex;
+
+    width: 80%;
+    height: fit-content;
+    align-items: center;
+    flex-direction: row-reverse;
+}
